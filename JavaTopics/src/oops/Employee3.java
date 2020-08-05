@@ -9,7 +9,7 @@ public class Employee3 {
 	int empage;
 	int empdeptnum;
 
-	void getData() {
+	void display() {
 
 		System.out.println(empname);
 		System.out.println(empsalary);
@@ -30,7 +30,7 @@ public class Employee3 {
 	       
 		Employee3 emp1 = new Employee3();
 		emp1.setData("Romaa", 10000, 3, 123);
-		emp1.getData();
+		emp1.display();
 	    
 		
 	}
