@@ -45,25 +45,24 @@ public class ConstructorOverloading {
 		c = z;
 
 	}
-	
-	void display () {
-		
+
+	void display() {
+
 		System.out.println(a);
 		System.out.println(b);
 		System.out.println(c);
 	}
 
 	public static void main(String[] args) {
-		
+
 		ConstructorOverloading c1 = new ConstructorOverloading();
-		ConstructorOverloading c2 = new ConstructorOverloading(2,3);
-		ConstructorOverloading c3 = new ConstructorOverloading(3,8.8);
-		ConstructorOverloading c4 = new ConstructorOverloading(1,2,3.3);
-	    c1.display();
-	    c2.display();
-	    c3.display();
-	    c4.display();
-	    
+		ConstructorOverloading c2 = new ConstructorOverloading(2, 3);
+		ConstructorOverloading c3 = new ConstructorOverloading(3, 8.8);
+		ConstructorOverloading c4 = new ConstructorOverloading(1, 2, 3.3);
+		c1.display();
+		c2.display();
+		c3.display();
+		c4.display();
 
 	}
 
