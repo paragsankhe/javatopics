@@ -54,15 +54,7 @@ public class Inheritancetest {
 
 	public static void main(String[] args) {
 
-		/*
-		 * A aobj = new A(); aobj.a = 10; aobj.b = 20; aobj.display();
-		 */
-
-		/*
-		 * B bobj = new B(); bobj.x = 130; bobj.y = 120; bobj.display();
-		 * 
-		 * bobj.a = 80; bobj.b = 20; bobj.display();
-		 */
+	
 
 		C cobj = new C();
 		cobj.a = 3;
